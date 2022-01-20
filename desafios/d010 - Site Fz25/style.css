@@ -96,11 +96,16 @@ div#lado {
     display: grid;
     gap: 16px;
     margin-bottom: 16px;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 2fr 5fr;
 }
 
-div#texto-lado {
+div#texto-lado p {
+    text-indent: 0px;
+}
 
+div#texto-lado h2 {
+    margin-top: 20px;
+    text-align: center;
 }
 
 div.video-texto {
